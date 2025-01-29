@@ -1,6 +1,52 @@
-# Sudoku1.4-8-
- Sudoku application written in Java for object-oriented programming course
- Open the project in your IDE, to run the application in the console go to "Sudoku1.4(8)\src\br\com\poli\game" and run "Teste.java". To run the interface go to "Sudoku1.4(8)\src\br\com\poli\view" and run "Main.java".
 
-Aplicação sudoku em Java feita no curso de programação orientada a objetos
-Abra o projeto na sua IDE de preferência, para rodar o Sudoku no console vá em "Sudoku1.4(8)\src\br\com\poli\game" e rode o "Teste.java". Para rodar a interface vá em "Sudoku1.4(8)\src\br\com\poli\view" e rode a "Main.java".
+# Sudoku Java Application / Aplicativo Sudoku em Java
+
+A Java-based Sudoku game developed for an Object-Oriented Programming course.  
+_Jogo de Sudoku em Java desenvolvido para um curso de Programação Orientada a Objetos._
+
+![Java](https://img.shields.io/badge/Java-10%2B-blue?logo=java) 
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
+## Features / Funcionalidades
+- **Console & GUI Versions** - Play in terminal or graphical interface  
+  **Versões Console e Interface Gráfica** - Jogue no terminal ou em interface gráfica
+- **Input Validation** - Ensures correct number placement  
+  **Validação de Entrada** - Garante posicionamento correto dos números
+- **Difficulty Levels** - Multiple challenge options (easy, medium, hard)  
+  **Níveis de Dificuldade** - Múltiplas opções de desafio (fácil, médio, difícil)
+
+## How to Run / Como Executar
+
+### Prerequisites / Pré-requisitos
+- Java JDK 10+ installed  
+  Java JDK 10+ instalado
+- IDE (IntelliJ, Eclipse, etc.) or command line  
+  IDE (IntelliJ, Eclipse, etc.) ou linha de comando
+
+### Console Version / Versão Console
+```shell
+# From IDE: Run this file
+src/br/com/poli/game/Teste.java
+
+# Via command line (from project root):
+javac src/br/com/poli/game/Teste.java
+java -cp src br.com.poli.game.Teste
+```
+
+### Graphical Interface / Interface Gráfica
+```shell
+# From IDE: Run this file
+src/br/com/poli/view/Main.java
+
+# Via command line (from project root):
+javac src/br/com/poli/view/Main.java
+java -cp src br.com.poli.view.Main
+```
+
+## Project Structure / Estrutura do Projeto
+```shell
+src/
+├── br/com/poli/
+│   ├── game/       # Core game logic (Teste.java = console entry)
+│   └── view/       # GUI components (Main.java = interface entry)
+```

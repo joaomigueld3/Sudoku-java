@@ -4,7 +4,7 @@
 A Java-based Sudoku game developed for an Object-Oriented Programming course.  
 _Jogo de Sudoku em Java desenvolvido para um curso de Programação Orientada a Objetos._
 
-<img align="center" alt="Joao-Java" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg">
+<img align="center" alt="Joao-Java" height="30" width="40" src="https://skillicons.dev/icons?i=java&theme=light">
 
 ![Java](https://img.shields.io/badge/Java-10%2B-blue?logo=java) 
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
